@@ -10,10 +10,13 @@ Steps Performed
 Download and Load Dataset: The dataset is downloaded using the opendatasets library and loaded into a Pandas DataFrame.
 
 Python
+```bash
 !pip install opendatasets --quiet
 import opendatasets as od
 od.download("https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python")
-Data Preprocessing:
+```
+
+## Data Preprocessing:
 
 Dropped the CustomerID column.
 Converted Gender to numeric values (Male: 1, Female: 0).
